@@ -1,0 +1,105 @@
+body{
+    background-color: #9D7F4E;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul
+{
+    list-style-type : none;
+    background-color: white;
+    padding : 0 px ;
+    margin: 0px ;
+    overflow:hidden;
+}
+.navbar a 
+{
+    color :#9D7F4E ;
+    text-decoration: none;
+    padding : 10px 10px;
+    display: block;
+    text-align: center;
+}
+.navbar li
+{
+    float: left;
+    
+}
+.navbar p
+{
+    text-align: center;
+    font-family: "Pacifico","consolas";
+    color:black;
+
+}
+.right li
+{
+    float : right;
+    padding :10px;
+    margin:0px;
+}
+ul{
+    display :flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo
+{
+    font-family: "Pacifico","consolas";
+    
+}
+.container
+{
+    font-family: "Pacifico","consolas";
+    text-align: center;
+    font-size: 30px;
+}
+.review1
+{
+    text-align: center;
+    background-color: white;
+}
+.review2
+{
+    text-align: center;
+    
+}
+.review3
+{
+    text-align: center;
+    background-color: white;
+}
+.review4
+{
+    text-align: center;
+}
+.review5
+{
+    text-align: center;
+    background-color: white;
+}
+.review6
+{
+    text-align: center;
+
+}
+.review7
+{
+    text-align: center;
+    background-color: white;
+
+}
+.review8
+{
+    text-align: center;
+}
+.review9
+{
+    text-align: center;
+    background-color: white;
+}
+.copyright
+{
+    text-align: center;
+}

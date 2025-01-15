@@ -1,0 +1,102 @@
+body
+{
+    background-color: #9D7F4E;
+    margin:0px;
+    padding:0px;
+}
+
+.navbar ul
+{
+    list-style-type : none;
+    background-color: white;
+    padding : 0 px ;
+    margin: 0px ;
+    overflow:hidden;
+}
+.navbar a 
+{
+    color :#9D7F4E ;
+    text-decoration: none;
+    padding : 10px 10px;
+    display: block;
+    text-align: center;
+}
+.navbar li
+{
+    float: left;
+    
+}
+.navbar p
+{
+    text-align: center;
+    font-family: "Pacifico","consolas";
+    color:black;
+
+}
+.right li
+{
+    float : right;
+    padding :10px;
+    margin:0px;
+}
+ul{
+    display :flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo
+{
+    font-family: "Pacifico","consolas";
+    
+}
+.heading
+{
+    text-align: center;
+    font-family: "Pacifico","consolas";
+    font-size: 50px;
+}
+.container
+{
+    text-align: center;
+    font-family: "Pacifico","consolas";
+    font-size: 20px;
+}
+.container1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.container3
+{
+    text-align: center;
+    font-family:  "Pacifico","consolas";
+
+}
+.container4
+{
+
+    text-align: center;
+    font-family: "Pacifico","consolas";
+}
+.container5
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.copyright
+{
+    text-align: center;
+}

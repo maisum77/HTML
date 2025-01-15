@@ -1,0 +1,92 @@
+body{
+    background-color: #9D7F4E;
+    margin: 0px;
+    padding :0px;
+}
+main
+{
+    /* margin :10px; */
+}
+h2
+{
+    text-align: center;
+}
+.navbar ul
+{
+    list-style-type : none;
+    background-color: white;
+    padding : 0 px ;
+    margin: 0px ;
+    overflow:hidden;
+}
+.navbar a 
+{
+    color :#9D7F4E ;
+    text-decoration: none;
+    padding : 10px 10px;
+    display: block;
+    text-align: center;
+}
+.navbar li
+{
+    float: left;
+    
+}
+.navbar p
+{
+    text-align: center;
+    font-family: "Pacifico","consolas";
+    color:black;
+
+}
+.right li
+{
+    float : right;
+    padding :10px;
+    margin:0px;
+}
+ul{
+    display :flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo
+{
+    font-family: "Pacifico","consolas";
+    
+}
+.mainimage
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.intro
+{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.copyright
+{
+    text-align: center;
+}
+.backery
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+.tagline
+{
+    font-family: "Pacifico","consolas";
+    text-align: center;
+    font-size: 25px;
+    color:azure;
+}
