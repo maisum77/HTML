@@ -51,20 +51,24 @@ ul{
 .container1
 {
     text-align: center;
+    padding:50px;
 }
 .container2
 {
     text-align: center;
     background-color: white;
+    padding:50px;
 }
 .container3
 {
     text-align: center;
+    padding:50px;
 }
 .container4
 {
     text-align: center;
     background-color: white;
     font-family:"Pacifico","consolas"; 
+    padding:50px;
 }
 
