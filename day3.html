@@ -33,6 +33,7 @@
             <td>San Francisco</td>
         </tr>
     </table>
+    <figure>
     <table border="1px">
         <tr>
             <th>time</th>
@@ -46,6 +47,82 @@
             <td>fruit salad</td>
         </tr>
     </table>
+    <figcaption>this is a table</figcaption>
+</figure>
+<form action="https://httpbin.org/get" method="get">
+    <fieldset>
+        <legend>personal information</legend>
+    <p>
+        <label for="firstname">firstname</label>
+        <input type="text" name="firstname" id="firstname" placeholder="enter here" >
+    </p>
+    <p>
+        <label for="lastname">laststname</label>
+        <input type="text" name="lastname" id="lastname" placeholder="enter here" >
+    </p>
+    <p>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="enter here" >
+    </p>
+    <p>
+        <label for="phone">phone</label>
+        <input type="phone" name="phone" id="phone" placeholder="03xx-xxxxxxx" pattern="[0-9]{4}-[0-9]{7}" >
+    </p>
+    <p>
+        <label for="coffee">favorate coffee</label>
+        <select name="coffee" id="coffee">
+            <option value="regualr">regular</option>
+            <option value="classic">classic</option>
+            <option value="decaffeinated">decaffeinated</option>
+            <option value="espresso">espresso</option>
+        </select>
+    </p>
+    <p>
+        <label for="coffee">favorate coffee</label>
+        <input type="text" id="coffee" list="coffee-list">
+        <datalist id="coffee-list">
+            <option value="regualr">
+            <option value="classic">
+            <option value="decaffeinated">
+            <option value="espresso">
+        </datalist>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>food</legend>
+    
+    <p>
+        <input type="radio" name="food" value="pizza" id="pizza">
+        <label for="pizza">pizza</label>
+    </p>
+    <p>
+        <input type="radio" name="food" value="burger" id="burger">
+        <label for="burger">burger</label>
+    </p>
+    <p>
+        <input type="radio" name="food" value="wrap" id="wrap">
+        <label for="wrap">wrap</label>
+    </p>
+
+</fieldset>
+<br>
+<fieldset>
+    <legend>do you have a pet?</legend>
+    <input type="checkbox" id="yes" >
+    <label for="yes">yes</label>
+    <input type="checkbox" id="no">
+    <label for="no">no</label>
+
+</fieldset>
+<br>
+<fieldset>
+ <legend>send me text</legend>
+ <textarea name="message" id="message" placeholder="enter your message" rows="5" cols="30"></textarea>
+</fieldset>
+<button type="submit">submit</button>
+ <button type="reset">reset</button>
+</form>
     
 </body>
 </html>
